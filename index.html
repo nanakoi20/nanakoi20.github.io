@@ -3,63 +3,197 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Portfolio</title>
+  <title>NANALA SAFRATA | Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
-      background: #f7f7f7;
-      color: #222;
     }
-    header {
-      background: #111827;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f9fafb, #eef2ff);
+      color: #1f2937;
+      line-height: 1.6;
     }
-    section {
+
+    .container {
       max-width: 900px;
-      margin: auto;
+      margin: 0 auto;
       padding: 40px 20px;
     }
+
     .card {
-      background: white;
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      margin-bottom: 24px;
     }
-    a {
-      color: #2563eb;
-      text-decoration: none;
+
+    .hero {
+      text-align: center;
+      padding: 50px 30px;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: #c7d2fe;
+      color: #3730a3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      font-weight: bold;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #111827;
+    }
+
+    .username {
+      color: #6366f1;
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #4b5563;
+      margin-bottom: 20px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .badge {
+      background: #eef2ff;
+      color: #4338ca;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 16px;
+      color: #111827;
+    }
+
+    p {
+      color: #374151;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+      color: #374151;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      color: #6b7280;
+      font-size: 14px;
+      padding: 20px 0 10px;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .tagline {
+        font-size: 16px;
+      }
+
+      .card {
+        padding: 24px;
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Web Developer | Laravel | Nuxt | Portfolio</p>
-  </header>
+  <div class="container">
+    <section class="card hero">
+      <div class="avatar">N</div>
+      <h1>NANALA SAFRATA</h1>
+      <div class="username">@nanakoi20 · she/her</div>
+      <p class="tagline">
+        Mahasiswa yang gemar makan anggur dan memiliki kepribadian yang unik, hangat, dan menyenangkan.
+      </p>
 
-  <section>
-    <div class="card">
-      <h2>About Me</h2>
-      <p>I build websites and web apps. This is my portfolio website hosted on GitHub Pages.</p>
-    </div>
+      <div class="meta">
+        <div class="badge">1 Follower</div>
+        <div class="badge">1 Following</div>
+        <div class="badge">UIN Kiai Ageng Muhammad Besari</div>
+        <div class="badge">Ponorogo</div>
+        <div class="badge">Joined last week</div>
+        <div class="badge">Pro</div>
+      </div>
+    </section>
 
-    <div class="card">
-      <h2>Projects</h2>
-      <p><strong>Project 1:</strong> E-commerce website</p>
-      <p><strong>Project 2:</strong> Company landing page</p>
-      <p><strong>Project 3:</strong> Personal blog</p>
-    </div>
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        Hello! My name is <strong>NANALA SAFRATA</strong>. I am a student based in Ponorogo and currently studying at
+        <strong>UIN Kiai Ageng Muhammad Besari</strong>.
+      </p>
+      <p>
+        I enjoy simple things in life, especially eating grapes, and I like expressing myself with a fun and personal style.
+        This page is a small introduction about who I am.
+      </p>
+    </section>
 
-    <div class="card">
+    <section class="card">
+      <h2>Profile Highlights</h2>
+      <ul>
+        <li>Student at UIN Kiai Ageng Muhammad Besari</li>
+        <li>Based in Ponorogo</li>
+        <li>Friendly and personal online presence</li>
+        <li>Loves grapes</li>
+        <li>Newly joined and ready to grow</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>A Few Fun Facts</h2>
+      <ul>
+        <li>I enjoy food, especially grapes.</li>
+        <li>I like keeping my profile simple but memorable.</li>
+        <li>I am excited to connect, learn, and share more over time.</li>
+      </ul>
+    </section>
+
+    <section class="card">
       <h2>Contact</h2>
-      <p>Email: yourmail@example.com</p>
-      <p>GitHub: <a href="https://github.com/yourgithubusername" target="_blank">github.com/yourgithubusername</a></p>
+      <p>You can personalize this section later with:</p>
+      <ul>
+        <li>Instagram</li>
+        <li>GitHub</li>
+        <li>Email</li>
+        <li>LinkedIn</li>
+      </ul>
+    </section>
+
+    <div class="footer">
+      © 2026 NANALA SAFRATA. All rights reserved.
     </div>
-  </section>
+  </div>
 </body>
 </html>
